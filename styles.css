@@ -1,0 +1,45 @@
+
+.buttons {
+    display: grid;
+    grid-template: 50px 50px 50px 50px / 5% 5% 5% 5%;
+    gap: 5px;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.numbers{
+ color: black;
+ background-color: #dedbdb;
+ box-shadow: none;
+ border: 0;
+ border-radius: 10%;
+}
+
+.numbers:hover{
+    background-color: #b0b0b0;
+}
+
+.operators{
+    color: black;
+    background-color: #ef9536;
+    box-shadow: none;
+    border: 0;
+    border-radius: 10%;
+   }
+
+   .operators:hover{
+    background-color: #cd8231;
+}
+
+#submit{
+    color: black;
+    background-color: #8d8d8d;
+    box-shadow: none;
+    border: 0;
+    border-radius: 10%;
+   }
+
+#submit:hover{
+    background-color: #707070;
+}
+   
