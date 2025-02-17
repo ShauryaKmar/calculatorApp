@@ -10,29 +10,28 @@
     </head>
     <body>
         <div class="body">
-            <div class="IOArea">
-                <!--Create display area-->
-            </div>
+                <input id="display" readonly>
             <div class="buttons">
-                    <button class="numbers">1</button>
-                    <button class="numbers">2</button>
-                    <button class="numbers">3</button>
-                    <button class="operators">+</button>
-                    <button class="numbers">4</button>
-                    <button class="numbers">5</button>
-                    <button class="numbers">6</button>
-                    <button class="operators">-</button>
-                    <button class="numbers">7</button>
-                    <button class="numbers">8</button>
-                    <button class="numbers">9</button>
-                    <button class="operators">*</button>
-                    <button class="operators">.</button>
-                    <button class="numbers">0</button>
-                    <button class="operators">/</button>
-                    <button id="submit">=</button>
+                    <button onclick="appendToDisplay('1')" class="numbers">1</button>
+                    <button onclick="appendToDisplay('2')" class="numbers">2</button>
+                    <button onclick="appendToDisplay('3')" class="numbers">3</button>
+                    <button onclick="appendToDisplay('+')" class="operators">+</button>
+                    <button onclick="appendToDisplay('4')" class="numbers">4</button>
+                    <button onclick="appendToDisplay('5')" class="numbers">5</button>
+                    <button onclick="appendToDisplay('6')" class="numbers">6</button>
+                    <button onclick="appendToDisplay('-')" class="operators">-</button>
+                    <button onclick="appendToDisplay('7')" class="numbers">7</button>
+                    <button onclick="appendToDisplay('8')" class="numbers">8</button>
+                    <button onclick="appendToDisplay('9')" class="numbers">9</button>
+                    <button onclick="appendToDisplay('*')" class="operators">*</button>
+                    <button onclick="appendToDisplay('.')" class="operators">.</button>
+                    <button onclick="appendToDisplay('0')"  class="numbers">0</button>
+                    <button onclick="appendToDisplay('/')" class="operators">/</button>
+                    <button onclick="clearDisplay()" class="operators">C</button>
+                    <button onclick="calculate()" id="submit">=</button>
             </div>
         </div>
         
-        <script src="" async defer></script>
+        <script src="script.js" async defer></script>
     </body>
 </html>
